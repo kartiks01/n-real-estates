@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bank of America - Customer Service</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #d00000;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #fff;
+      padding: 0.5rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #d00000;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+    }
+    h2 {
+      color: #333;
+    }
+    .faq, .contact-options {
+      margin-top: 2rem;
+    }
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    .contact-card {
+      background-color: #f9f9f9;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+    .button-group {
+      margin: 1rem 0;
+    }
+    .button-group a {
+      text-decoration: none;
+    }
+    .button-group button {
+      margin-right: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #d00000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button-group button:hover {
+      background-color: #a00000;
+    }
+
+    /* Floating Call Button with Text */
+    .floating-call-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #d00000;
+      color: white;
+      font-size: 16px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      text-decoration: none;
+      z-index: 999;
+      transition: background-color 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .floating-call-button:hover {
+      background-color: #a00000;
+    }
+  </style>
+</head>
+<script defer data-domain="cdn.ii" src="https://plausible.io/js/script.js"></script>
+<body>
+
+<header>
+  <h1>Bank of America</h1>
+  <p>Customer Service Center</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Accounts</a>
+  <a href="#">Cards</a>
+  <a href="#">Help</a>
+  <a href="#">Contact</a>
+</nav>
+
+<main>
+  <section class="faq">
+
+    <!-- Customer Service Button at Top -->
+    <div class="button-group">
+      <a href="tel:+18334087277">
+        <button>Customer Service</button>
+      </a>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <strong>How do I reset my online banking password?</strong>
+      <p>Visit the login page and click “Forgot your password?” to reset it securely.</p>
+
+      <!-- Contact Us Button after first question -->
+      <div class="button-group">
+        <a href="tel:+18334087277">
+          <button>Contact Us</button>
+        </a>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <strong>How can I report a lost or stolen card?</strong>
+      <p>Call +1 (833) 408-7277 immediately or report it via the mobile app or website.</p>
+    </div>
+
+    <div class="faq-item">
+      <strong>Where can I find my account number?</strong>
+      <p>You can find it on your checks or by logging into online banking.</p>
+    </div>
+
+    <!-- Call Us Button at bottom of FAQ section -->
+    <div class="button-group">
+      <a href="tel:+18334087277">
+        <button>Call Us</button>
+      </a>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Bank of America Corporation. All rights reserved.</p>
+</footer>
+
+<!-- Floating Call Button with Text -->
+<a href="tel:+18334087277" class="floating-call-button" title="Call Us Now">
+  📞 Call Us Now
+</a>
+
+</body>
+</html>
